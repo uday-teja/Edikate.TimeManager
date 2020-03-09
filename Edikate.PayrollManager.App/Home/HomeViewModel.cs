@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edikate.PayrollManager.App.PayrollHome
+namespace Edikate.TimeManager.App.Home
 {
-    public class PayrollHomeViewModel : Screen
+    public class HomeViewModel : Screen
     {
 
     }

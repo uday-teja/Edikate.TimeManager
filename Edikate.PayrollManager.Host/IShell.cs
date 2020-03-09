@@ -1,3 +1,3 @@
-namespace Edikate.PayrollManager.Host {
+namespace Edikate.TimeManager.Host {
     public interface IShell {}
 }

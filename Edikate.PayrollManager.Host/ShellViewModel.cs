@@ -1,9 +1,9 @@
 using Caliburn.Micro;
-using Edikate.PayrollManager.App;
-using Edikate.PayrollManager.App.PayrollHome;
+using Edikate.TimeManager.App;
+using Edikate.TimeManager.App.Home;
 using System.Linq;
 
-namespace Edikate.PayrollManager.Host
+namespace Edikate.TimeManager.Host
 {
     public class ShellViewModel : Conductor<IScreen>.Collection.OneActive, IShell
     {
@@ -22,7 +22,7 @@ namespace Edikate.PayrollManager.Host
         protected override void OnActivate()
         {
             base.OnActivate();
-            var vm = IoC.Get<PayrollHomeViewModel>();
+            var vm = IoC.Get<HomeViewModel>();
             base.ActivateItem(vm);
         }
 
@@ -31,7 +31,7 @@ namespace Edikate.PayrollManager.Host
             switch (menu)
             {
                 case PayrollMenu.DashboardView:
-                    if (this.ActiveItem.GetType() == typeof(PayrollHomeViewModel))
+                    if (this.ActiveItem.GetType() == typeof(HomeViewModel))
                     {
 
                     }

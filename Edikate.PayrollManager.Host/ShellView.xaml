@@ -1,11 +1,11 @@
-<Controls:MetroWindow x:Class="Edikate.PayrollManager.Host.ShellView"
+<Controls:MetroWindow x:Class="Edikate.TimeManager.Host.ShellView"
                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                       xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
-                      xmlns:ekc="clr-namespace:Edikate.PayrollManager.App.Controls;assembly=Edikate.PayrollManager.App"
+                      xmlns:ekc="clr-namespace:Edikate.TimeManager.App.Controls;assembly=Edikate.TimeManager.App"
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStartupLocation="CenterScreen">
     <Controls:MetroWindow.TitleTemplate>
         <DataTemplate>
-            <TextBlock Text="Edikate Payroll Manager" Margin="10,0,0,0" VerticalAlignment="Center" FontSize="12"/>
+            <TextBlock Text="Edikate Time Manager" Margin="10,0,0,0" VerticalAlignment="Center" FontSize="12"/>
         </DataTemplate>
     </Controls:MetroWindow.TitleTemplate>
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edikate.PayrollManager.App
+namespace Edikate.TimeManager.App
 {
     public enum PayrollMenu
     {

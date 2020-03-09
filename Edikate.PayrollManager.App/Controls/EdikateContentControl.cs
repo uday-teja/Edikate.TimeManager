@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace Edikate.PayrollManager.App.Controls
+namespace Edikate.TimeManager.App.Controls
 {
     public class EdikateContentControl : ContentControl
     {

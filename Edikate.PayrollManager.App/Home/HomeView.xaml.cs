@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Edikate.PayrollManager.App.PayrollHome
+namespace Edikate.TimeManager.App.Home
 {
     /// <summary>
-    /// Interaction logic for PayrollHomeView.xaml
+    /// Interaction logic for HomeView.xaml
     /// </summary>
-    public partial class PayrollHomeView : UserControl
+    public partial class HomeView : UserControl
     {
-        public PayrollHomeView()
+        public HomeView()
         {
             InitializeComponent();
         }

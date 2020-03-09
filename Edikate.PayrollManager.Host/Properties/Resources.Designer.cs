@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Edikate.PayrollManager.Host.Properties
+namespace Edikate.TimeManager.Host.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Edikate.PayrollManager.Host.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Edikate.PayrollManager.Host.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Edikate.TimeManager.Host.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

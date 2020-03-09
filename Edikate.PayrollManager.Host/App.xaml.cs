@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Edikate.PayrollManager.Host
+namespace Edikate.TimeManager.Host
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -21,7 +21,7 @@ namespace Edikate.PayrollManager.Host
 
         protected override void OnStartup(StartupEventArgs e)
         {
-            ThemeManager.AddAccent("EdikateAccent", new Uri("pack://application:,,,/Edikate.PayrollManager.Host;component/Styles/EdikateAccent.xaml"));
+            ThemeManager.AddAccent("EdikateAccent", new Uri("pack://application:,,,/Edikate.TimeManager.Host;component/Styles/EdikateAccent.xaml"));
             Tuple<AppTheme, Accent> appStyle = ThemeManager.DetectAppStyle(Application.Current);
             ThemeManager.ChangeAppStyle(Application.Current, ThemeManager.GetAccent("EdikateAccent"), appStyle.Item1);
             base.OnStartup(e);

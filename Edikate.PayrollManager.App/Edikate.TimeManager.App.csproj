@@ -7,8 +7,8 @@
     <ProjectGuid>{17AE9915-6782-485A-94B2-2D96DB5E2A79}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Edikate.PayrollManager.App</RootNamespace>
-    <AssemblyName>Edikate.PayrollManager.App</AssemblyName>
+    <RootNamespace>Edikate.TimeManager.App</RootNamespace>
+    <AssemblyName>Edikate.TimeManager.App</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -60,14 +60,10 @@
     <Compile Include="Controls\EdikateContentControl.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="LeftNavigator\LeftNavigatorViewModel.cs" />
-    <Compile Include="PayrollDashboard\PayrollDashboardView.xaml.cs">
-      <DependentUpon>PayrollDashboardView.xaml</DependentUpon>
+    <Compile Include="Home\HomeView.xaml.cs">
+      <DependentUpon>HomeView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PayrollDashboard\PayrollDashboardViewModel.cs" />
-    <Compile Include="PayrollHome\PayrollHomeView.xaml.cs">
-      <DependentUpon>PayrollHomeView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PayrollHome\PayrollHomeViewModel.cs" />
+    <Compile Include="Home\HomeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,11 +71,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PayrollDashboard\PayrollDashboardView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="PayrollHome\PayrollHomeView.xaml">
+    <Page Include="Home\HomeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

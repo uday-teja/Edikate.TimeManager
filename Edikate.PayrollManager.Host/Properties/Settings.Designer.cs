@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Edikate.PayrollManager.Host.Properties
+namespace Edikate.TimeManager.Host.Properties
 {
 
 

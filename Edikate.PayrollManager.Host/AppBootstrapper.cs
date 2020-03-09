@@ -1,4 +1,4 @@
-namespace Edikate.PayrollManager.Host
+namespace Edikate.TimeManager.Host
 {
     using System;
     using System.Collections.Generic;
@@ -61,7 +61,7 @@ namespace Edikate.PayrollManager.Host
         {
             return new Assembly[] {
                 Assembly.GetAssembly(typeof(IShell)),
-               Assembly.GetAssembly(typeof(Edikate.PayrollManager.App.LeftNavigatorViewModel)),
+               Assembly.GetAssembly(typeof(Edikate.TimeManager.App.LeftNavigatorViewModel)),
             };
         }
     }

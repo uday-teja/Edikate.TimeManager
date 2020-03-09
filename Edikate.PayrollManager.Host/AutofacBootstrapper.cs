@@ -1,13 +1,13 @@
 ﻿using Autofac;
-using Edikate.PayrollManager.App;
-using Edikate.PayrollManager.App.PayrollHome;
+using Edikate.TimeManager.App;
+using Edikate.TimeManager.App.Home;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Edikate.PayrollManager.Host
+namespace Edikate.TimeManager.Host
 {
     static class AutofacBootstrapper
     {
@@ -18,7 +18,7 @@ namespace Edikate.PayrollManager.Host
             builder.RegisterType<Caliburn.Micro.EventAggregator>().As<Caliburn.Micro.IEventAggregator>().SingleInstance();
             builder.RegisterType<ShellViewModel>().As<IShell>();
             builder.RegisterType<LeftNavigatorViewModel>().AsSelf().SingleInstance();
-            builder.RegisterType<PayrollHomeViewModel>().AsSelf().SingleInstance();
+            builder.RegisterType<HomeViewModel>().AsSelf().SingleInstance();
             return builder;
         }
     }

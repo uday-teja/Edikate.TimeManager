@@ -5,7 +5,7 @@ using System.Text;
 using Caliburn.Micro;
 using System.Threading.Tasks;
 
-namespace Edikate.PayrollManager.App
+namespace Edikate.TimeManager.App
 {
     public class LeftNavigatorViewModel : Conductor<Screen>
     {
